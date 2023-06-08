@@ -72,9 +72,6 @@
     }
 
     async function getUserProfile() {
-    }
-
-    function getEnvironment() {
       document.getElementById("os").append(liff.getOS())
       document.getElementById("Language").append(liff.getLanguage())
       document.getElementById("version").append(liff.getVersion())
@@ -87,6 +84,9 @@
         document.getElementById("btnScanCode").style.display = "none"
         document.getElementById("btnClose").style.display = "none"
     }
+    }
+
+    function getEnvironment() {      
   }
 
     async function main() {
